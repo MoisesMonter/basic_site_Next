@@ -1,12 +1,12 @@
 import Image from 'next/image'
 import Logo from './logo'
-import stylesearch from './stylesearch.module.scss'
+import style from './head.module.scss'
 import Search from './search'
 import User from '../user'
 export default function Home() {
   return (
     <>
-    <header className={stylesearch.header}>
+    <header className={style.main}>
         <div>
             <Logo/>
         </div>  

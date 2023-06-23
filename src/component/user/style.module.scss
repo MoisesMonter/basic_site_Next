@@ -1,20 +1,29 @@
 .main{
     display:flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
+    flex-wrap: nowrap;
+    width: 100px;
+    margin-right: 50px;
+    color:rgb(54, 54, 54);
     article{
         display:flex;
-        flex-direction: row;
+        flex-direction: column;
         align-items: center;
-        gap:1%;
+        word-break: unset;
+        margin-left: 5%;
+        margin-right: 30%;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        color:rgb(54, 54, 54);
-    }
-    div{
-        margin-top: 10px;
-        display: flex;
-        flex-direction: row;
-        p{font-size: 15px;}
+       div{
+            margin-top: 10px;
+            display: flex;
+            flex-direction: row;
+            p{
+                font-size: 15px;
+            }
+            }
+    
+        
     }
 }
